@@ -17,3 +17,18 @@ Selon plusieurs agences immobilières et le professeur François Rosiers, profes
 A cet égard, quelle expression mathématique peut-on établir pour avoir une approximation du prix du logement en fonction des différentes caractéristiques ? 
 L’objectif de notre travail est de prédire le prix des maisons à Ames en utilisant les modèles de machine Learning. 
 
+Méthodologie
+
+La méthodologie de travail est de précéder tout d’abord à un traitement de la base de données. 
+S’ensuit une analyse exploratoire pour dégager les distributions des variables et ressortir les relations préliminaires qui les lient. 
+Cette exploration permettra en outre d'avoir une idées des transformations à faire sur les variables afin de mieux les utiliser dans le modèle.
+Il s’agira de faire des transformations pour avoir une relation linéaire entre le prix du logement et les variables quantitatives et ordinales. 
+Pour les variables catégorielles, il est nécessaire de regrouper les modalités de réponse qui se ressemblent pour réduire le nombre de variables 
+dans le modèle tout en gardant le maximum de l’effet discriminatoire. 
+Les données pour cette modélisation sont labellisées et le volume de la base de données est relativement réduit, le modèle doit donc être du type 
+supervised learning. 
+Par ailleurs, la variable à prédire étant quantitative c’est une régression linéaire qui convient mieux. 
+Ainsi, après avoir fait une bonne compréhension des variables avec la statistique descriptive et fait les transformations nécessaires, nous concevrons
+quatre modèles, deux modèles linéaires (régression linéaire et Ridge) et deux modèles ensemblistes (random forest et gradient boosting).
+
+
